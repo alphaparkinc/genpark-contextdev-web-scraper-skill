@@ -1,0 +1,27 @@
+{
+  "name": "genpark-contextdev-web-scraper-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Context.dev HTML layout metadata parser.",
+  "author": "genpark",
+  "category": "operations",
+  "tags": [
+    "scraper",
+    "parser",
+    "contextdev"
+  ],
+  "inputs": {
+    "raw_html": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "extracted_text": {
+      "type": "string"
+    },
+    "meta_description": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
